@@ -8,7 +8,6 @@ app.use(cors())
 app.use(express.json())
 
 const users = require('./users.json')
-const { Delete } = require('@mui/icons-material')
 
 const sessions = {}
 
